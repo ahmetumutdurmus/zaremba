@@ -41,4 +41,3 @@ The paper also presents model averaging results for the three models described a
 + `python ensemble.py --ensemble_num 10 --layer_num 2 --hidden_size 1500 --lstm_type 'pytorch' --dropout 0.65 --winit 0.04 --batch_size 20 --seq_length 35 --learning_rate 1 --total_epochs 55 --factor_epoch 14 --factor 1.15 --max_grad_norm 10 --device 'gpu'`
 
 So one only needs to run `ensemble.py` instead of `main.py` with the addition of `--ensemble_num <INT>` to specify the number of models to average. 
-
